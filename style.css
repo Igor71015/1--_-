@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'StratosSkyeng', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('images/background.jpg');
+    background-size: cover;         
+    background-position: center;     
+    background-repeat: no-repeat;
+}
+
+.content {
+    min-height: 100vh;
+    padding: 40px 0;
+}
+.center {
+    padding-left: calc(50% - 500px);
+    padding-right: calc(50% - 500px);
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Навигация */
+.nav {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px 18px;
+    background-color: #ff6b6b;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    background-color: #ff8787;
+}
+
+/* Картинки */
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* Мемы в ряд */
+.memes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
